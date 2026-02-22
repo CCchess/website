@@ -850,8 +850,9 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
       btn.textContent = btn.textContent.replace('$19.99', '$37');
     });
 
-    // ── Proof strip: remove the "30-day" entry, keep the rest
-    // (nothing price-specific there — leave as is)
+    // ── Total bar: "yours for $19.99" → "yours for $37"
+    const totalVal = document.querySelector('.total-bar .tv');
+    if (totalVal) totalVal.textContent = '$273 — yours for $37';
 
     // ── Urgency band: replace countdown with a simple message
     document.querySelector('.urgency-band').innerHTML =
