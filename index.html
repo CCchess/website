@@ -573,7 +573,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
 
 <!-- STICKY BAR -->
 <div class="sticky-bar">
-  <span>⚡ Founding price of <strong style="color:var(--gold2)">$19.99</strong> ends March 1st —</span>
+  <span>⚡ Founding price of <strong style="color:var(--gold2)">$19.99</strong> ends March 6th —</span>
   <span>time left: <span class="gold" id="sticky-timer">00:00:00:00</span></span>
   <span class="pill">Price jumps to $37</span>
 </div>
@@ -601,7 +601,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
 
     <div class="hero-cta">
       <a href="https://cc-chess-shop.fourthwall.com/checkout/ch_51bomh9BQnyI0u7pi0grnA" class="btn-primary">Get Instant Access — $19.99</a>
-      <p class="cta-note">Price rises to $37 on March 1st · One-time payment · Instant Notion access</p>
+      <p class="cta-note">Price rises to $37 on March 6th · One-time payment · Instant Notion access</p>
     </div>
   </div>
 </section>
@@ -772,7 +772,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
 <!-- URGENCY COUNTDOWN -->
 <div class="urgency-band">
   <span class="urgency-label">Founding Price Ends</span>
-  <h3>$19.99 Until <em>March 1st.</em><br>Then It's $37.</h3>
+  <h3>$19.99 Until <em>March 6th.</em><br>Then It's $37.</h3>
   <div class="countdown-row">
     <div class="cd-unit">
       <span class="cd-num" id="cd-d">00</span>
@@ -794,7 +794,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
       <span class="cd-lbl">Sec</span>
     </div>
   </div>
-  <p class="urgency-note">Timer counts down to March 1, 2026 midnight ET</p>
+  <p class="urgency-note">Timer counts down to March 6, 2026 midnight ET</p>
 </div>
 
 <!-- PRICING -->
@@ -807,7 +807,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
       <span class="price-was">$273</span>
       <span class="price-now"><sup>$</sup>19<sup style="font-size:1.6rem;">.99</sup></span>
     </div>
-    <p class="price-note">One-time payment · Instant Notion access · Founding price until March 1st</p>
+    <p class="price-note">One-time payment · Instant Notion access · Founding price until March 6th</p>
 
     <ul class="whats-inside">
       <li><span class="ck">✓</span> 4-Week Pattern Mastery Program ($97 value)</li>
@@ -822,7 +822,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
     <a href="https://cc-chess-shop.fourthwall.com/checkout/ch_51bomh9BQnyI0u7pi0grnA" class="btn-primary" style="font-size:1.1rem; padding:20px 56px;">
       Get Instant Access — $19.99
     </a>
-    <p class="cta-sub">Price rises to $37 on March 1st · One-time · Instant access</p>
+    <p class="cta-sub">Price rises to $37 on March 6th · One-time · Instant access</p>
   </div>
 </div>
 
@@ -831,7 +831,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
 </div>
 
 <script>
-  const END = new Date('2026-03-01T00:00:00-05:00');
+  const END = new Date('2026-03-06T00:00:00-05:00');
 
   function pad(n){ return String(n).padStart(2,'0'); }
 
@@ -900,7 +900,7 @@ hr.divider { border: none; border-top: 1.5px solid var(--border); }
   }
 
   // Run immediately so the page shows correct state on load
-  // (handles anyone visiting on or after March 1st)
+  // (handles anyone visiting on or after March 6th)
   const now = new Date();
   if (now >= END) {
     switchToFullPrice();
